@@ -1,0 +1,9 @@
+{
+    "name": "chrisguitarguy/pdo-sta"
+    , "description": "Examples of how to use PDO + class polymorphism"
+    , "autoload": {
+        "psr-4": {
+            "Chrisguitarguy\\Example\\PdoSta\\": "src/"
+        }
+    }
+}

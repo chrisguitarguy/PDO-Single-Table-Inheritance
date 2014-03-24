@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS sta_math;
+CREATE TABLE sta_math (
+    id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+    math_type VARCHAR(255) NOT NULL,
+    math_value INT NOT NULL,
+    PRIMARY KEY (id)
+);
